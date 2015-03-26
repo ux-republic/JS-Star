@@ -1,3 +1,7 @@
+body {
+	background: #000000;
+}
+
 .main-tag-line {
 	font-size: 0.8em;
 }
@@ -12,7 +16,7 @@
 	margin-top: 20px;
 }
 
-#js-star-slide-one q, #js-star-slide-two q, #brute-data q {
+#js-star-slide-one q, #js-star-slide-two q, #brute-data q, #usecase-example q {
 	margin-top: 10px;
 }
 
@@ -24,12 +28,14 @@
 	right: 20px;
 }
 
-#js-star-slide-one>span, #js-star-slide-two>span, #js-star-slide-three>span, #brute-data>span {
+#js-star-slide-one>span, #js-star-slide-two>span, #js-star-slide-three>span, #brute-data>span, #usecase-example>span {
 	display: block;
 	margin-top: 20px;
 	position: relative;
 	line-height: 1.5em;
 }
+
+
 
 #brute-data>span {
 	font-size: 0.9em;
@@ -41,7 +47,7 @@
 	/*opacity: 0.5;*/
 }
 
-#js-star-slide-two>span>img, #brute-data>span>img {
+#js-star-slide-two>span>img, #brute-data>span>img, #usecase-example>span>img {
 	position: absolute;
 	z-index: -1;
 	width: 100%;
@@ -167,6 +173,8 @@
 	background: #FFFFFF;
 	width: 1000px;
 	border-radius: 20px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: rgb(102, 102, 102);
 }
 
 #js-star-data-kind-examples q {
@@ -179,11 +187,16 @@
 	margin-top: 5px;
 }
 
-#big {
+#big, #ressources {
 	font-family: 'Open Sans', Arial, sans-serif;
 	color: rgb(102, 102, 102);
 	padding: 60px;
 }
+
+#ressources {
+	background-color: #FFF;
+}
+
 
 #big .thoughts {
 	line-height: 110px;
@@ -382,5 +395,64 @@
 	background: url('../img/slide17-check.png') transparent left center no-repeat;
 	background-size: 30px;
 	padding-left: 40px;
+}
+
+.presentation-frameworks {
+	display: block;
+	font-size: 0.4em;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.presentation-frameworks img {
+	height: 90px;
+	top: 50%;
+	position: absolute;
+	display: inline-block;
+	transform: translateY(-50%);
+	display: inline-block;
+	float: left;
+}
+
+.presentation-frameworks img.chart-js {
+		height: 80px;
+}
+
+.presentation-frameworks>span {
+	padding-top: 20px;
+	padding-left: 100px;
+	display: block;
+}
+
+.presentation-frameworks>span.minus, .presentation-frameworks>span.plus {
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+}
+
+.presentation.should-be-white-big {
+	background: #FFFFFF;
+	width: 1000px;
+	border-radius: 20px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: rgb(102, 102, 102);
+}
+
+.presentation-frameworks>span.tagline {
+	font-size: 1.4em;
+}
+
+.status-pictos {
+	padding-top: 20px;
+	display: block;
+}
+
+#ressources-2 .presentation-frameworks img.status-pictos {
+	transform: translateY(-80%);
+}
+
+.get-smaller {
+	font-size: 0.5em;
+	line-height: 10px;
 }
 
